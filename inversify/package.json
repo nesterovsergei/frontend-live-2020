@@ -1,0 +1,21 @@
+{
+  "name": "inversify-example",
+  "version": "1.0.0",
+  "description": "inversify example",
+  "author": "Sergei Nesterov",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start-simple": "ts-node src/simple.ts",
+    "start-tagged": "ts-node src/tagged.ts",
+    "start-named": "ts-node src/named.ts",
+    "tsc:w": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  }
+}
